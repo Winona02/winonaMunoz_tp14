@@ -30,26 +30,23 @@ console.log("--------------------------------------");
 
 //b. Extraer el primer elemento del array y agregarlo al final del mismo.
 
-console.log("Elimino el primer elemento y lo agrego al final: ");
+console.log("Elimino el primer elemento del array y lo agrego al final: ");
 
 let primerElemento = electrodomesticos[0];
 electrodomesticos.shift();
 electrodomesticos.push(primerElemento);
 
-for (let i = 0; i < electrodomesticos.length; i++) {
-    console.log(electrodomesticos[i]);
-}
+console.log(electrodomesticos);
 
 console.log("--------------------------------------");
 
 // c. Agregar al final del array dos (2) nuevos productos.
-console.log("Agrego 2 elementos nuevos al final: ");
+console.log("Agrego 2 elementos nuevos al final del array: ");
 
 electrodomesticos.push("cafetera", "licuadora");
 
-for (let i = 0; i < electrodomesticos.length; i++) {
-    console.log(electrodomesticos[i]);
-}
+console.log(electrodomesticos);
+
 console.log("--------------------------------------");
 
 // d. Mostrar por la consola la cantidad de elementos que contiene el array.
